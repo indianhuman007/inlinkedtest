@@ -1,0 +1,70 @@
+{
+  "active_account": "account_1",
+  "accounts": {
+    "account_1": {
+      "label": "My Personal Account (Test)",
+      "phone": "",
+      "password": "",
+      "api_id": 32520130,
+      "api_hash": "fef010f621d05aeb04691f9dadeaefa0",
+      "session_name": "session_account_1"
+    },
+    "account_2": {
+      "label": "Account 2 (Backup)",
+      "phone": "+234XXXXXXXXX",
+      "password": "",
+      "api_id": 1234567,
+      "api_hash": "YOUR_API_HASH_HERE",
+      "session_name": "session_account_2"
+    }
+  },
+  "rate_and_safety": {
+    "speed_profile": "Normal",
+    "min_delay_seconds": 60,
+    "max_delay_seconds": 120,
+    "max_messages_per_run": 50,
+    "loop_cooldown_minutes": 10,
+    "pause_on_flood_wait": true
+  },
+  "message_settings": {
+    "type": "text",
+    "photo_path": "promo.jpg",
+    "forward_source": {
+      "channel": "@pricifydeals",
+      "message_id": 1
+    },
+    "spintax_text_templates": [
+      "📦 **STOCK UPDATE** 📦\n\n• Spotify RESTOCKED\n• Apple Music Bulk Available\n\n🛒 Order now: @Pricify_Store_bot",
+      "{🔥|💎|🚀} **{PRICIFY STORE|Instant Digital Store}**\n\n{Get verified OTT subscriptions and masterclass courses at best prices!|Automated instant delivery for OTT accounts, subscriptions & courses!}\n\n👉 **Store Bot:** @Pricify_Store_bot\n📢 **Updates:** @pricifydeals",
+      "{✨|⚡|🛍️} **Looking for Cheap OTT & Masterclasses?**\n\n{Verified accounts delivered 24/7 automatically.|Buy subscriptions & courses on Telegram with zero hassle.}\n\n🛒 Start shopping: @Pricify_Store_bot",
+      "{🎯|💥} **Instant Delivery - Verified Premium Accounts**\n\n{Why pay full price? Get premium subscriptions & certified courses instantly.|Save up to 80% on OTT and education masterclasses.}\n\n🤖 Open Bot: @Pricify_Store_bot"
+    ]
+  },
+  "instagram": {
+    "username": "your_ig_username",
+    "password": "your_ig_password",
+    "proxy": "",
+    "my_handle": "@PricifyStore",
+    "targets": [
+      "netflix_in",
+      "primevideoin",
+      "hotstar",
+      "techburner"
+    ],
+    "max_comments_per_run": 8,
+    "min_delay_seconds": 180,
+    "max_delay_seconds": 360
+  },
+  "facebook": {
+    "c_user": "",
+    "xs": "",
+    "targets": [
+      {
+        "id": "sample_group_id",
+        "title": "Cheap OTT Subscriptions Group"
+      }
+    ],
+    "min_delay_seconds": 120,
+    "max_delay_seconds": 240
+  }
+}
